@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
 
-export default class Introduction extends Component {
+export default class Carousels extends Component {
   render() {
     return (
       <div>
-        <section id="colorlib-hero" className="js-fullheight" data-section="home">
+        <section id="colorlib-hero" className="js-fullheight" data-section="carousels">
           <div className="flexslider js-fullheight">
             <ul className="slides">
-              <li style={{backgroundImage: 'url(images/img_bg.jpg)'}}>
+              <li style={{backgroundImage: 'url(images/mito.jpg)'}}>
                 <div className="overlay" />
                 <div className="container-fluid">
                   <div className="row">
@@ -15,14 +15,14 @@ export default class Introduction extends Component {
                       <div className="slider-text-inner js-fullheight">
                         <div className="desc">
                           <h1>Hi! <br />I'm Lihao</h1>
-                          {/* <p><a className="btn btn-primary btn-learn" href="https://docs.google.com/document/d/15coSa2rnZcdywihM-pWTvoGqE65JAkxQAh6JDBNrF2Q/edit?usp=sharing" target="_blank" rel="noopener noreferrer">View CV<i className="icon-download4" /></a></p> */}
+                          <p><a className="btn btn-primary btn-learn" href="#" target="_blank" rel="noopener noreferrer">View CV<i className="icon-download4" /></a></p>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </li>
-              <li style={{backgroundImage: 'url(images/img_bg.jpg)'}}>
+              <li style={{backgroundImage: 'url(images/mito.jpg)'}}>
                 <div className="overlay" />
                 <div className="container-fluid">
                   <div className="row">
