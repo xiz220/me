@@ -8,10 +8,10 @@ export default class Sidebar extends Component {
           <nav href="#navbar" className="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i /></nav>
           <aside id="colorlib-aside" className="border js-fullheight">
             <div className="text-center">
-              <div className="author-img" style={{backgroundImage: 'url(images/about.png)'}} />
+              <div className="author-img" style={{ backgroundImage: 'url(images/about.png)' }} />
               <h1 id="colorlib-logo"><a href="index.html">Lihao Zhu</a></h1>
               <span className="email"><i className="icon-mail"></i> lihaozhu2020@gmail.com</span>
-              <br/>
+              <br />
             </div>
             <nav id="colorlib-main-menu" role="navigation" className="navbar">
               <div id="navbar" className="collapse">
@@ -21,6 +21,7 @@ export default class Sidebar extends Component {
                   {/* <li><a href="#carousels" data-nav-section="carousels">carousels</a></li> */}
                   {/* <li><a href="#" data-nav-section="blog">Blog</a></li> */}
                   {/* <li><a href="#timeline" data-nav-section="timeline">Timeline</a></li> */}
+                  <img src={'images/to_be_continued.png'} alt='to be continued' style={{'max-height': "25%", 'max-width': "25%"}} />
                 </ul>
               </div>
             </nav>
@@ -30,11 +31,9 @@ export default class Sidebar extends Component {
                 <li><a href="https://github.com/liz2020" target="_blank" rel="noopener noreferrer"><i className="icon-github"></i></a></li>
               </ul>
             </nav>
-            <div className="colorlib-footer">
-              <p><small>
-                {/* Something coming soon !! */}
-              </small></p>
-            </div>
+            {/* <div className="colorlib-footer">
+              <img src={'images/to_be_continued.png'} alt='to be continued' style={{'max-height': "35%", 'max-width': "35%"}} />
+            </div> */}
           </aside>
         </div>
       </div>
